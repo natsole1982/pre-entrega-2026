@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAGIC SERVICE</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1. Encabezado solo para el logo y menú (VERDE OSCURO) -->
+  <header class="navbar-header">
+    <h2 class="logo-text">MAGIC SERVICE</h2>
+    
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#" class="cart-link">🛒 Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 2. Sección del título y botón (PARTE CLARA / VERDE CLARO Y CENTRADO) -->
+  <section class="hero-section">
+    <h1>Limpieza de Alfombras</h1>
+    <p>Presupuestos sin cargo.</p>
+    <a href="#productos" class="btn-primary">Ver servicios</a>
+  </section>
+
+  <!-- 3. Contenido principal -->
+  <main>
+    <section id="productos" class="contenedor">
+      <h2 class="titulo-seccion">Nuestros servicios</h2>
+
+      <div class="grilla-productos">
+        
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-imagen card-1">sillas</div>
+          <div class="card-info">
+            <span class="categoria">LIMPIEZA</span>
+            <h3>Limpieza de Alfombras</h3>
+            <p>100% garantizado. Servicio profesional a domicilio.</p>
+            <span class="precio">$18.900</span>
+            <button class="btn-card">🛒 Agregar al carrito</button>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-imagen card-2">Alfombras</div>
+          <div class="card-info">
+            <span class="categoria">TAPIZADOS</span>
+            <h3>Limpieza de Sillones</h3>
+            <p>Eliminación de manchas y desinfección profunda.</p>
+            <span class="precio">$42.500</span>
+            <button class="btn-card">🛒 Agregar al carrito</button>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="card-imagen card-3">Autos</div>
+          <div class="card-info">
+            <span class="categoria">AUTOMOTOR</span>
+            <h3>limpieza</h3>
+            <p>Lavado completo de butacas e interiores.</p>
+            <span class="precio">$55.000</span>
+            <button class="btn-card">🛒 Agregar al carrito</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contenedor">
+      <h2 class="titulo-seccion">Contacto</h2>
+      <div class="bloque-contacto">
+        
+        <div class="datos-contacto">
+          <h3>Local central</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Av. 9 de Julio s/n, Obelisco</li>
+            <li><i class="fa-solid fa-clock"></i> Lunes a sábados de 10 a 18 hs</li>
+          </ul>
+
+          <h3>Teléfonos</h3>
+          <ul>
+            <li><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/5491145550000">+54 9 11 4555-0000</a></li>
+            <li><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:info@magicservice.com.ar">info@magicservice.com.ar</a></li>
+          </ul>
+        </div>
+
+        <div class="mapa">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889118!2d-58.38415072346761!3d-34.60373885750059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf454f023c%3A0xe57e289e02c6117!2sObelisco!5e0!3m2!1ses!2sar!4v1700000000000" 
+            title="Mapa del Obelisco de Buenos Aires" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
+            allowfullscreen>
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="contenedor footer-columnas">
+      <div class="columna">
+        <h4>MAGIC SERVICE</h4>
+        <p>Servicios profesionales de limpieza para tu hogar y vehículo.</p>
+      </div>
+      <div class="columna">
+        <h4>Contacto</h4>
+        <ul>
+          <li><i class="fa-solid fa-envelope"></i> info@magicservice.com.ar</li>
+          <li><i class="fa-solid fa-phone"></i> +54 11 4555-0001</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
